@@ -193,12 +193,6 @@ The **Overflow Flag** detects signed arithmetic overflow. In this design, the ov
 Overflow = (A3 XOR S3) AND (A3 XOR B'3)
 ```
 
-or mathematically,
-
-\[
-V = (A_3 \oplus S_3)(A_3 \oplus B'_3)
-\]
-
 where:
 
 - `A3` is the most significant (sign) bit of operand A.
