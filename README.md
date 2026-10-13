@@ -262,7 +262,7 @@ Additional test cases can be added as the hardware implementation is verified.
 
 1. Install **Logisim Evolution**.
 2. Clone or download this repository.
-3. Open `simulation/4-bit-ALU.circ`.
+3. Open `Simulation/4bitalunew.circ`.
 4. Set the inputs `A3-A0` and `B3-B0`.
 5. Set `S2 S1 S0` according to the operation table.
 6. For arithmetic mode (`000`):
@@ -275,22 +275,24 @@ Additional test cases can be added as the hardware implementation is verified.
 ## Repository Structure
 
 ```text
-4-Bit-ALU/
+4-Bit-ALU-Logisim-Breadboard/
 |
 |-- README.md
 |-- LICENSE
 |
-|-- simulation/
-|   `-- 4-bit-ALU.circ
-|
-|-- images/
-|   |-- block-diagram.png
-|   |-- logisim-layout.png
-|   |-- logisim-annotated.png
-|   `-- breadboard-implementation.png
-|
-`-- hardware/
-    `-- README.md
+|-- Simulation/
+|   `--4bitalunew.circ
+|   `--Logism_annotated.png
+|   `--Logism_layout.png
+|   `--Logism_layout.png
+|   `--readme.md
+
+|-- Logic Bench/
+|   `--Implementation in Logic Bench.png
+|   `--Logic Bench Simulation.png   
+|   `--README.md
+
+`-- block diagram/
 ```
 
 ---
