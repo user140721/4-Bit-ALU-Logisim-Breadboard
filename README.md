@@ -205,30 +205,6 @@ The **Overflow LED** indicates when the overflow-detection logic is asserted. Fo
 -8 to +7
 ```
 
----
-
-## Logisim Evolution Design
-
-![Logisim Evolution ALU](images/logisim-layout.png)
-
-The complete ALU was first designed in **Logisim Evolution**. This implementation is used as the reference design for verifying individual operations and debugging the breadboard implementation.
-
-### Annotated Design
-
-![Annotated Logisim Design](images/logisim-annotated.png)
-
-The annotated schematic separates the arithmetic, logic, multiplexer and status-detection sections for easier understanding of the overall architecture.
-
-The Logisim `.circ` source file is available in the [`simulation`](simulation/) directory.
-
----
-
-## Logic Bench / Breadboard Implementation
-
-![Logic Bench Breadboard Implementation](Logic Bench/Implementation in Logic Bench.png)
-
-The ALU architecture was also recreated using TTL ICs and breadboard-style wiring in **Logic Bench**.
-
 ### Current Status
 
 The **circuit connections and intended logic are correct and follow the Logisim design**. The breadboard implementation is currently **under development and debugging** because some sections are not yet producing the expected output consistently.
