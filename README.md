@@ -225,7 +225,7 @@ The Logisim `.circ` source file is available in the [`simulation`](simulation/) 
 
 ## Logic Bench / Breadboard Implementation
 
-![Logic Bench Breadboard Implementation](images/breadboard-implementation.png)
+![Logic Bench Breadboard Implementation](Logic Bench/Implementation in Logic Bench.png)
 
 The ALU architecture was also recreated using TTL ICs and breadboard-style wiring in **Logic Bench**.
 
